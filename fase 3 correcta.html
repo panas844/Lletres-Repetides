@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+ 
+</head>
+
+<body>
+
+
+
+    <script type="text/javascript">
+       
+
+ // Create string variable
+      var myName = ["P", "A", "N", "O","O" ,"P", "S"]
+      let letterCount = {} 
+      myName.map((currElement, index) => {
+        if (letterCount[myName[index]]){
+          letterCount[myName[index]] += 1
+        } else {
+          letterCount[myName[index]] = 1}
+
+  return(letterCount) ; //equivalent to list[index]
+});
+
+console.log(letterCount)
+
+
+    </script>
+
+
+</body>
+</html>
